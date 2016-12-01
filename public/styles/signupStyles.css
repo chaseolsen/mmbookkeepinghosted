@@ -1,0 +1,19 @@
+.login-container {
+  margin-top: 200px;
+}
+
+#loginHeader {
+  font-size: 24px;
+}
+
+.create {
+  padding-top: 20px;
+}
+
+.create input{
+  font-size: 24px;
+}
+
+.phonenumber-create {
+  margin-bottom: 30px;
+}

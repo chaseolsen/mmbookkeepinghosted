@@ -1,0 +1,75 @@
+.service {
+  font-size: 28px;
+}
+
+.square {
+  margin-top: 25px !important;
+}
+
+.jumbotronHome {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("./images/calculator_background.jpg");
+  text-align: center !important;
+  padding-top: 300px !important;
+  background-color: #fff !important;
+  height: 800px !important;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  border-bottom-width: 1px;
+  color: white!important;
+}
+
+.jumbotronHome h1 {
+  font-size: 72px !important;
+  letter-spacing: 7px !important;
+}
+
+.jumbotronHome h3 {
+  letter-spacing: 7px !important;
+}
+
+.intro h1 {
+  letter-spacing: 5px;
+}
+
+.intro {
+  margin-bottom: 20px;
+  line-height: 200%
+}
+
+.introText {
+  margin-top: 50px;
+}
+
+.introText h3 {
+  line-height: 125%;
+}
+
+/*___Jumbotron (home.html) letter fadeIn___*/
+.fadeOne {
+  display: none;
+}
+.fadeTwo {
+  display: none;
+}
+.fadeThree {
+  display: none;
+}
+
+.rowList {
+    padding: 40px 50px;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("./images/laptop_penpaper.jpg");
+    /*background-image: url('./images/laptop_penpaper.jpg');*/
+    color: white;
+}
+
+.rowList h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  line-height: 125%;
+}
+
+.bottomBar {
+    background-color: #45a69f;
+    color: white;
+}

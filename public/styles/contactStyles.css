@@ -1,0 +1,42 @@
+.jumbotronContact {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("./images/contact_background.jpg");
+  text-align: center !important;
+  padding-top: 300px !important;
+  background-color: #fff !important;
+  height: 700px !important;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  border-bottom-width: 1px;
+  color: white!important;
+  margin-bottom: 0px !important;
+}
+
+.recommended {
+  background-color: #45a69f;
+  color: white;
+}
+
+.understandPara {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("./images/write.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.understandPara h3 {
+  line-height: 125%;
+}
+
+.aboutUs {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.aboutUs h1 {
+  letter-spacing: 4px;
+}
+
+.aboutUs h3 {
+  line-height: 125%;
+}

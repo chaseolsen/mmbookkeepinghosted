@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>M&M Bookkeeping</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/homeStyles.css">
+    <link rel="stylesheet" href="./styles/contactStyles.css">
+    <link rel="stylesheet" href="./styles/servicesStyles.css">
+    <link rel="stylesheet" href="./styles/signupStyles.css">
+    <link rel="icon" href="./styles/images/mm_logo_trans.png">
+</head>
+
+<body>
+
+    <!-- Navbar start -->
+
+    <nav class="navbar navbar-default navbar-fixed-top shrink">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <span><img src="./styles/images/M&M_Logo.png" height="130" width="130"></span>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="homeBtn"><a href="./index.html">HOME</a></li>
+                  <li class="servicesBtn"><a href="./services.html">SERVICES</a></li>
+                  <li class="contactBtn"><a href="./contact.html">CONTACT</a></li>
+                  <li class="navNumber"><a>#801-921-0822</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotronServices">
+      <div class="fadeOne"><h1>OUR SERVICES</h1></div>
+      <div class="fadeTwo"><h3>WEEKLY, MONTHLY</h3></div>
+      <div class="fadeThree"><h3>QUARTERLY AND ANNUALLY</h3></div>
+    </div>
+
+    <div class="container-fluid serviceList">
+            <div class="row slideanim text-center">
+                <div class="col-sm-4 square">
+                  <span class="service glyphicon glyphicon-stats"></span>
+                  <h2>FINANCIAL REPORTING</h2>
+                  <h4>Financial management reporting, budgeting, and cash flow forecasting.</h4>
+
+                </div>
+                <div class="col-sm-4 square">
+                  <span class="service glyphicon glyphicon-book"></span>
+                    <h2>ACCOUNTS PAYABLE</h2>
+                    <h4>Coding, posting, bill pay with explicit approval, reconciling, reporting, year-end 1099's and maintaining vendor master files.</h4>
+                </div>
+                <div class="col-sm-4 square">
+                  <span class="service glyphicon glyphicon-time"></span>
+                    <h2>PAYROLL</h2>
+                    <h4>Processing and or entering payroll from a thrid-party of your choosing.</h4>
+
+                </div>
+            </div>
+            <!--  -->
+            <div class="row slideanim text-center">
+                <div class="col-sm-4 square">
+                  <span class="service glyphicon glyphicon-briefcase"></span>
+                    <h2>ACCOUNTS REVEIVABLE</h2>
+                    <h4>Coding, posting of cash receipts & sales, invoicing, statements, reconciling, reporting, light collections by phone and mail as needed and maintaining customer master files.</h4>
+
+                </div>
+                <div class="col-sm-4 square">
+                  <span class="service glyphicon glyphicon-calendar"></span>
+                    <h2>MONTHLY PROCESSES</h2>
+                    <h4>Job costing, department and class tracking, location tracking, tracking customer deposits/retainers, income/payroll allocations, currency conversions and Accounts Reveivable.</h4>
+                </div>
+                <div class="col-sm-4 square">
+                  <span class=" service glyphicon glyphicon-credit-card"></span>
+                    <h2>COLLECTIONS</h2>
+                    <h4>Banking, credit card, load, investment and merchant account reconciliations; Stripe, Square and Shopify. Updating the online banking to correct the bank balance to real-time.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid setup">
+          <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-10">
+              <h1>QuickBooks Set-up:</h1>
+              <h2>New company initial set-up of your accounting data file using QuickBooks desktop version or QuickBooks Online.</h2>
+              <h1>Clean Up / Catch Up work:</h1>
+              <h2>If books are in arrears and need back months of bookkeping performed.</h2>
+            </div>
+            <div class="col-sm-1">
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid bottomBar">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h4>For more information or a free quote, please <a ui-sref="contact">contact us</a> today!</h4>
+            </div>
+          </div>
+        </div>
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./styles/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <script src="./app.js"></script>
+    <script src="./mainCtrl.js"></script>
+    <script src="./mainSvc.js"></script>
+
+</body>
+
+</html>
