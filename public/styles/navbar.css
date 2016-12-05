@@ -2,7 +2,6 @@
   height: 20px !important;
 }*/
 
-
 /* Beginning of navbar*/
 .navbar {
     background-color: rgba(255, 255, 255, 0.8) !important;
@@ -20,7 +19,9 @@
     right: 0;
     left: 0;
 }
-
+.mainImage {
+  margin-left: 10px;
+}
 .navbar .container {
   margin-top: 15px;
 }
@@ -131,6 +132,7 @@
 #cant-account a {
   color: #45a69f;
 }
+
 /* ________________________*/
 
 .rowItem h3 {

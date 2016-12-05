@@ -1,9 +1,18 @@
+@media (max-width: 767px){
+  .jumbotronContact h1 {
+    font-size: 52px !important;
+  }
+  .jumbotronContact h3 {
+    font-size: 18px !important;
+  }
+}
+
 .jumbotronContact {
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("./images/contact_background.jpg");
   text-align: center !important;
-  padding-top: 300px !important;
+  padding-top: 225px !important;
   background-color: #fff !important;
-  height: 700px !important;
+  height: 550px !important;
   border-bottom-style: solid;
   border-bottom-color: grey;
   border-bottom-width: 1px;
