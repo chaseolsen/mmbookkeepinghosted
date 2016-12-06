@@ -1,24 +1,19 @@
-@media (max-width: 767px){
-  .jumbotronServices h1 {
-    font-size: 52px !important;
-  }
-}
-
 .jumbotronServices {
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("./images/office.jpg");
   text-align: center !important;
-  padding-top: 250px !important;
+  padding-top: 300px !important;
   background-color: #fff !important;
-  height: 600px !important;
+  height: 700px !important;
   border-bottom-style: solid;
   border-bottom-color: grey;
   border-bottom-width: 1px;
   color: white!important;
   margin-bottom: 0px !important;
-}
 
-.jumbotronServices h1 {
-  font-size: 72px;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .serviceList {

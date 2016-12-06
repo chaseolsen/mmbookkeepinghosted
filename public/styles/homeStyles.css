@@ -29,6 +29,11 @@
   border-bottom-color: grey;
   border-bottom-width: 1px;
   color: white!important;
+
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumbotronHome h1 {
@@ -70,9 +75,13 @@
 
 .rowList {
     padding: 40px 50px;
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("./images/laptop_penpaper.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("./images/laptop_penpaper.jpg");
     /*background-image: url('./images/laptop_penpaper.jpg');*/
     color: white;
+    background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
 
 .rowList h3 {
