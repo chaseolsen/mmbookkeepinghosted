@@ -15,6 +15,16 @@
     background-size: cover;
 }
 
+.jumbotronContact a:link {
+  /*text-decoration: none;*/
+  color: white;
+}
+
+.jumbotronContact a:hover {
+  color: white;
+}
+
+
 .recommended {
   background-color: #45a69f;
   color: white;
